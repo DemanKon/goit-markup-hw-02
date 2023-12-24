@@ -4,7 +4,18 @@ body {
     color: #434455;
 }
 
-
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 a {
     text-decoration: none;
@@ -197,6 +208,7 @@ ul {
 }
 
 .portfolio-item-img {
+    background: url(<path-to-image>), lightgray -25.026px 0px / 125% 100% no-repeat;
 }
 
 .portfolio-subtetle {
