@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
+    color: #434455;
 }
 
 .visually-hidden {
@@ -40,7 +41,7 @@ ul {
     color: #2E2F42;
 }
 
-.header-menu-link {
+.header-menu-list {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 1.5;
@@ -49,11 +50,11 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.header-menu-link:hover {
+.header-menu-list:hover {
     color: #404BBF;
 }
 
-.header-menu-link:active {
+.header-menu-list:active {
     color: #404BBF;
 }
 
@@ -69,11 +70,11 @@ ul {
         letter-spacing: 0.02em;
 }
 
-.menu-contact:hover {
+.menu-contact-link:hover {
     color: #404BBF;
 }
 
-.menu-contact:active {
+.menu-contact-link:focus {
     color: #404BBF;
 }
 
@@ -207,7 +208,7 @@ background: #F4F4FD;
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.12;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
