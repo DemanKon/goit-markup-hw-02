@@ -41,7 +41,7 @@ ul {
     color: #2E2F42;
 }
 
-.header-menu-list {
+.header-menu-link {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 1.5;
@@ -50,11 +50,11 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.header-menu-list:hover {
+.header-menu-link:hover {
     color: #404BBF;
 }
 
-.header-menu-list:active {
+.header-menu-link:focus {
     color: #404BBF;
 }
 
@@ -69,6 +69,16 @@ ul {
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
+
+.menu-contact-link {
+    color: #434455;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 
 .menu-contact-link:hover {
     color: #404BBF;
